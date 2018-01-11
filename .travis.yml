@@ -1,10 +1,11 @@
 language: node_js
 node_js:
 - node
-deploy:
-  provider: npm
-  email: ethan.arrowood@gmail.com
-  api_key:
-    secure: JwPXnMp9H0AZPRAyr+LIddTsTCrtrA9oTnG/Kl7aTe1fLvnY+LBXMA2kdgGHdEDkljSmm7vePCeG8oBubsVSfkEkfMIU69C7f6dKe8Q+tbE/QL1ygT2ITWdavJ/l6P3wPampvOm+iGi8frBAvPhX2OVS8pnI1VfyfJFj0r4KMYH7oh6xe9pEjJxzw3qjVSFKvwdc1mPR1F/3PxmEQXGS5Ohe+h1x0qvzd+5YLFZJdOAf8feFPuozoQDKyg2u8jvZ1hqm4lcJFptv6FR5j5ZD6HrIXnkI8kqY4iNPnhw+tjHUXqYkQFRZXxpGRT7Ofx2DKJtQYXMtFYtkBdxApSQVzm3j5DR+mMqxqYxTkUia1+ZT0rXFmt28hG3Blnhybk95FVmynT9rXxx9XpN9AeG2eX2/nSujUlKMjUnoo19n8A3mlGz7+FOKrfMXV7ZHV/hjwWTsTHEWZRB/a3+do484bSXa4nsaEdLNadxGuDZOmBkXKCnJ8xSDMAbLQhcrNxzOmUJb3WyKMxVnz3xUQSeCHimBRJp0YdKF2JgiReIM7RDXU6H6QHsyd6kJJEYZcHSfRAa3rQCrSS8ehsIUTIYiMSRSYcb2SUNKsOv1S8XAT/3+Uov95+oR4gAzLCl397JmjQw1Pcb7BJ3jMSlY59lT75ZCMWiSUVAhY4q7x7NWEEM=
-  on:
-    repo: Ethan-Arrowood/npm-deploy-demo
+# Turn off deploy
+# deploy:
+#   provider: npm
+#   email: ethan.arrowood@gmail.com
+#   api_key:
+#     secure: JwPXnMp9H0AZPRAyr+LIddTsTCrtrA9oTnG/Kl7aTe1fLvnY+LBXMA2kdgGHdEDkljSmm7vePCeG8oBubsVSfkEkfMIU69C7f6dKe8Q+tbE/QL1ygT2ITWdavJ/l6P3wPampvOm+iGi8frBAvPhX2OVS8pnI1VfyfJFj0r4KMYH7oh6xe9pEjJxzw3qjVSFKvwdc1mPR1F/3PxmEQXGS5Ohe+h1x0qvzd+5YLFZJdOAf8feFPuozoQDKyg2u8jvZ1hqm4lcJFptv6FR5j5ZD6HrIXnkI8kqY4iNPnhw+tjHUXqYkQFRZXxpGRT7Ofx2DKJtQYXMtFYtkBdxApSQVzm3j5DR+mMqxqYxTkUia1+ZT0rXFmt28hG3Blnhybk95FVmynT9rXxx9XpN9AeG2eX2/nSujUlKMjUnoo19n8A3mlGz7+FOKrfMXV7ZHV/hjwWTsTHEWZRB/a3+do484bSXa4nsaEdLNadxGuDZOmBkXKCnJ8xSDMAbLQhcrNxzOmUJb3WyKMxVnz3xUQSeCHimBRJp0YdKF2JgiReIM7RDXU6H6QHsyd6kJJEYZcHSfRAa3rQCrSS8ehsIUTIYiMSRSYcb2SUNKsOv1S8XAT/3+Uov95+oR4gAzLCl397JmjQw1Pcb7BJ3jMSlY59lT75ZCMWiSUVAhY4q7x7NWEEM=
+#   on:
+#     repo: Ethan-Arrowood/npm-deploy-demo
